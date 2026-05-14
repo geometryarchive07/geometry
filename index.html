@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometryarch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+  <header class="bg-black text-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-6 lg:flex-row lg:items-center lg:justify-between">
+      <div class="flex items-center justify-between gap-6">
+        <div class="text-3xl font-serif uppercase tracking-[0.35em]">geometryarch</div>
+      </div>
+
+      <div class="flex flex-col items-center gap-2 text-center lg:text-left lg:items-start">
+        <nav class="flex flex-wrap items-center justify-center gap-6 text-sm font-sans uppercase tracking-[0.15em] text-white/80">
+          <a href="about.html" class="hover:text-white">About</a>
+          <a href="#membership" class="hover:text-white">Membership</a>
+          <a href="#exhibitions" class="hover:text-white">Exhibitions</a>
+          <a href="#events" class="hover:text-white">Events</a>
+        </nav>
+        <div class="text-sm font-serif uppercase tracking-[0.2em] text-white/80">the geometry archive</div>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 text-sm font-sans">
+        <a href="#login" class="hover:text-white">Login</a>
+        <button class="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-white/90 hover:border-white hover:text-white">
+          <span class="text-base">🌐</span>
+          English
+        </button>
+        <button class="rounded-full border border-white/20 px-3 py-2 text-white/90 hover:border-white hover:text-white">
+          🛒
+        </button>
+        <button class="rounded-full bg-[#E8DAC1] px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-slate-900 hover:bg-[#d8c5a8]">
+          Donate
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-none px-6 py-10">
+      <section class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+        <div class="h-[360px] w-full bg-cover bg-center bg-no-repeat" style="background-image: url('lanscape.png');"></div>
+        <div class="p-4">
+          <p class="font-sans text-sm text-slate-500">desain lanscape</p>
+        </div>
+      </article>
+
+      <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+        <img src="interior.png" alt="Karya seni interior oleh Giuseppe de Palma" class="h-[360px] w-full object-cover" />
+        <div class="p-4">
+          <p class="font-sans text-sm text-slate-500">desain interior</p>
+        </div>
+      </article>
+
+        <article class="overflow-hidden rounded-3xl bg-white shadow-sm">
+        <img src="kontruksi.png" alt="Proyek konstruksi oleh Daniel Zalla" class="h-[360px] w-full object-cover" />
+        <div class="p-4">
+          <p class="font-sans text-sm text-slate-500">desain konstruksi</p>
+        </div>
+      </article>
+      </section>
+
+      <section class="mt-12 grid gap-6 lg:grid-cols-3">
+        <article class="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <h2 class="mb-3 text-2xl font-serif uppercase tracking-[0.2em] text-slate-900">Desain Lanscape</h2>
+          <p class="mb-6 text-slate-600">Jelajahi halaman khusus lanscape untuk inspirasi taman, ruang luar, dan pendekatan lanskap modern.</p>
+          <a href="lanscape.html" class="inline-flex rounded-full bg-black px-5 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white hover:bg-slate-900">Buka Halaman</a>
+        </article>
+
+        <article class="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <h2 class="mb-3 text-2xl font-serif uppercase tracking-[0.2em] text-slate-900">Desain Interior</h2>
+          <p class="mb-6 text-slate-600">Masuk ke detail ruang interior, materi, komposisi warna, dan konsep kenyamanan.</p>
+          <a href="interior.html" class="inline-flex rounded-full bg-black px-5 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white hover:bg-slate-900">Buka Halaman</a>
+        </article>
+
+        <article class="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <h2 class="mb-3 text-2xl font-serif uppercase tracking-[0.2em] text-slate-900">Desain Konstruksi</h2>
+          <p class="mb-6 text-slate-600">Lihat pendekatan struktur dan teknik konstruksi dari proyek desain kami.</p>
+          <a href="kontruksi.html" class="inline-flex rounded-full bg-black px-5 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white hover:bg-slate-900">Buka Halaman</a>
+        </article>
+      </section>
+
+      <section class="mt-12 rounded-3xl border border-slate-200 bg-white p-10 shadow-sm">
+        <h2 class="mb-4 text-3xl font-serif uppercase tracking-[0.35em] text-slate-900">Hubungi Kami</h2>
+        <p class="mb-6 text-slate-600">Untuk pertanyaan atau konsultasi desain, silakan hubungi kami melalui informasi berikut.</p>
+        <div class="space-y-4 text-slate-700">
+          <p><span class="font-semibold">Email:</span> geometryarchive07@gmail.com</p>
+          <p><span class="font-semibold">Telepon:</span> +62 812 3456 7890</p>
+          <p><span class="font-semibold">Alamat:</span> Jl. Geometri No. 12, Jakarta, Indonesia</p>
+        </div>
+      </section>
+  </main>
+</body>
+</html>
